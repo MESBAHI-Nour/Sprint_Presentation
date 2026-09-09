@@ -1,19 +1,3 @@
-let nombres = [4, 7, 2, 7, 9, 4,5];
-console.log(`tableau de depart: ${nombres}`)
-let tab=[]
-for (let i=0;i<nombres.length;i++){
-    for (let j=0;j<nombres.length;j++){
-        if(nombres[i]===nombres[j] && j!==i){
-            if(!tab.includes(nombres[i])){
-                tab.push(nombres[i])
-            }
-        }
-    }    
-}
-console.log(`Nouveau tableau: ${tab}`)
-
-///////////////////////////////////////////
-
 let nb = [4, 7, 2, 7, 9, 4, 5];
 console.log(`Tableau de départ : ${nb}`);
 let tab1=[];
