@@ -1,23 +1,17 @@
-Interface,Nom,Signification,Format,Obligatoire,Calculée
-Accueil,titreArticle,Titre de l'article affiché sur la carte (également présent sur Catégorie et Article),texte,Oui,Non
-Accueil,extraitArticle,Court résumé/accroche de l'article affiché sous le titre sur la carte (présent aussi sur Catégorie),texte long,Oui,Non
-Accueil,imageCouverture,Image principale illustrant l'article sur la carte (également en grand format en haut de la page Article),image/URL,Oui,Non
-Accueil,datePublication,Date de publication de l'article affichée sur la carte (format court sur Accueil/Catégorie ex. 14 Fév 2026 vs format long sur Article ex. 14 Février 2026),date,Oui,Non
-Accueil,dureeLecture,Temps de lecture estimé affiché en minutes (ex. 5 min),entier,Oui,Oui
-Accueil,categorieArticle,Nom de la catégorie associée à l'article, affiché en badge sur la carte,texte,Oui,Non
-Catégorie,nomCategorie,Nom de la catégorie affiché en titre de page (ex. Développement Web) et dans le menu de navigation,texte,Oui,Non
-Catégorie,descriptionCategorie,Texte descriptif de la catégorie affiché sous le titre de la page Catégorie (non visible sur les autres pages),texte long,Oui,Non
-Article,contenuArticle,Corps complet de l'article : paragraphes, sous-titres et listes (visible uniquement sur la page Article),texte long,Oui,Non
-Article,imageInline,Image illustrative insérée dans le corps de l'article, accompagnée d'une légende (visible uniquement sur la page Article, apparaît de façon ponctuelle),image/URL,Non,Non
-Article,legendeImageInline,Texte de légende affiché sous l'image insérée dans le corps de l'article (visible uniquement sur la page Article),texte,Non,Non
-Article,citationArticle,Citation mise en avant dans le corps de l'article avec mention de son auteur (visible uniquement sur la page Article),texte long,Non,Non
-Article,articlePrecedent,Référence vers l'article précédent proposé en navigation en bas de la page Article,texte,Non,Oui
-Article,articleSuivant,Référence vers l'article suivant proposé en navigation en bas de la page Article,texte,Non,Oui
-Article,fonctionAuteur,Libellé affiché sous le nom de l'auteur sur la page Article (ex. Auteur du blog),texte,Non,Non
-Article,nomAuteur,Nom de l'auteur de l'article affiché sur la page Article (également présent sur À propos),texte,Oui,Non
-Article,photoAuteur,Photo/avatar de l'auteur affichée à côté du nom sur la page Article (également présente en grand format sur À propos),image/URL,Oui,Non
-À propos,biographieAuteur,Texte de présentation de l'auteur affiché sous la rubrique "Qui suis-je ?" (visible uniquement sur À propos),texte long,Oui,Non
-À propos,parcoursAuteur,Texte décrivant le parcours de l'auteur affiché sous la rubrique "Mon Parcours" (visible uniquement sur À propos),texte long,Oui,Non
-À propos,competencesAuteur,Liste des compétences de l'auteur regroupées par catégorie (Design System, Frontend, Backend, Outils), visible uniquement sur À propos,texte long,Oui,Non
-Connexion Admin,emailAdmin,Adresse email saisie par l'administrateur pour se connecter à l'espace admin,email,Oui,Non
-Connexion Admin,motDePasseAdmin,Mot de passe saisi par l'administrateur pour se connecter à l'espace admin,mot de passe,Oui,Non
+Nom,Signification,Format,Obligatoire,Calculée
+id_article,Identifiant unique de l'article,entier,Oui,Non
+titre_article,Titre de l'article,Texte,Oui,Non
+description_article,Description de l'article,Texte,Oui,Non
+contenu_article,Contenu de l'article,Texte,Oui,Non
+image_article,Image de l'article,Chemin,Non,Non
+date_publication,Date de publication de l'article,JJ/MM/AAAA,Oui,Non
+duree_lecture,Durée de lecture de l'article,entier,Oui,Non
+id_auteur,Identifiant de l'auteur,entier,Oui,Non
+id_category,Identifiant unique de la catégorie, entier,Oui,Non
+description_category,Description de la catégorie,Texte,Oui,Non
+nom_category,Nom de la catégorie,Texte,Oui,Non
+id_auteur,Identifiant unique de l'auteur,entier,Oui,Non
+nom_auteur,Nom de l'auteur,Texte,Oui,Non
+prenom_auteur,Prénom de l'auteur,Texte,Oui,Non
+email_auteur,Adresse email de l'auteur,Email,Oui,Non
+photo_auteur,Photo de l'auteur,Chemin,Non,Non
