@@ -1,17 +1,17 @@
-Nom,Signification,Type,Format,Taille,Obligatoire,Calculée
-id_article,Identifiant unique de l'article,Entier,Nombre entier,,Oui,Non
-titre_article,Titre de l'article,Texte,Texte,100,Oui,Non
-description_article,Description de l'article,Texte,Texte long,,Oui,Non
-contenu_article,Contenu de l'article,Texte,Texte long,,Oui,Non
-image_article,Image de l'article,Texte,Chemin,200,Non,Non
-date_publication,Date de publication de l'article,Date,JJ/MM/AAAA,,Oui,Non
-duree_lecture,Durée de lecture de l'article,Entier,Nombre entier,,Oui,Non
-id_auteur,Identifiant de l'auteur,Entier,Nombre entier,,Oui,Non
-id_category,Identifiant unique de la catégorie,Entier,Nombre entier,,Oui,Non
-description_category,Description de la catégorie,Texte,Texte,100,Oui,Non
-nom_category,Nom de la catégorie,Texte,Texte,100,Oui,Non
-id_auteur,Identifiant unique de l'auteur,Entier,Nombre entier,,Oui,Non
-nom_auteur,Nom de l'auteur,Texte,Texte,100,Oui,Non
-prenom_auteur,Prénom de l'auteur,Texte,Texte,100,Oui,Non
-email_auteur,Adresse email de l'auteur,Texte,Email,100,Oui,Non
-photo_auteur,Photo de l'auteur,Texte,Chemin,200,Non,Non
+Nom,Signification,Format,Obligatoire,Calculée
+id_article,Identifiant unique de l'article,Nombre entier,Oui,Non
+titre_article,Titre de l'article,Texte,Oui,Non
+description_article,Description de l'article,Texte long,Oui,Non
+contenu_article,Contenu de l'article,Texte long,Oui,Non
+image_article,Image de l'article,Chemin,Non,Non
+date_publication,Date de publication de l'article,JJ/MM/AAAA,Oui,Non
+duree_lecture,Durée de lecture de l'article,Nombre entier,Oui,Non
+id_auteur,Identifiant de l'auteur,Nombre entier,Oui,Non
+id_category,Identifiant unique de la catégorie,Nombre entier,Oui,Non
+description_category,Description de la catégorie,Texte,Oui,Non
+nom_category,Nom de la catégorie,Texte,Oui,Non
+id_auteur,Identifiant unique de l'auteur,Nombre entier,Oui,Non
+nom_auteur,Nom de l'auteur,Texte,Oui,Non
+prenom_auteur,Prénom de l'auteur,Texte,Oui,Non
+email_auteur,Adresse email de l'auteur,Email,Oui,Non
+photo_auteur,Photo de l'auteur,Chemin,Non,Non
