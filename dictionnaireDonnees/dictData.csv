@@ -1,16 +1,16 @@
 Nom,Signification,Format,Obligatoire,Calculée
-id_article,Identifiant unique de l'article,Nombre entier,Oui,Non
+id_article,Identifiant unique de l'article,entier,Oui,Non
 titre_article,Titre de l'article,Texte,Oui,Non
-description_article,Description de l'article,Texte long,Oui,Non
-contenu_article,Contenu de l'article,Texte long,Oui,Non
+description_article,Description de l'article,Texte,Oui,Non
+contenu_article,Contenu de l'article,Texte,Oui,Non
 image_article,Image de l'article,Chemin,Non,Non
 date_publication,Date de publication de l'article,JJ/MM/AAAA,Oui,Non
-duree_lecture,Durée de lecture de l'article,Nombre entier,Oui,Non
-id_auteur,Identifiant de l'auteur,Nombre entier,Oui,Non
-id_category,Identifiant unique de la catégorie,Nombre entier,Oui,Non
+duree_lecture,Durée de lecture de l'article,entier,Oui,Non
+id_auteur,Identifiant de l'auteur,entier,Oui,Non
+id_category,Identifiant unique de la catégorie, entier,Oui,Non
 description_category,Description de la catégorie,Texte,Oui,Non
 nom_category,Nom de la catégorie,Texte,Oui,Non
-id_auteur,Identifiant unique de l'auteur,Nombre entier,Oui,Non
+id_auteur,Identifiant unique de l'auteur,entier,Oui,Non
 nom_auteur,Nom de l'auteur,Texte,Oui,Non
 prenom_auteur,Prénom de l'auteur,Texte,Oui,Non
 email_auteur,Adresse email de l'auteur,Email,Oui,Non
