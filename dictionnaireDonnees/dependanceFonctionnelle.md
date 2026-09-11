@@ -19,16 +19,16 @@ Commande (
     idClient
 )
 
-commandeProduit (
-    idProduit,
-    idCommande,
-    quantiteCommande
-)
-
 Produit (
     idProduit,
     nomProduit,
     prixProduit
+)
+
+commandeProduit (
+    idProduit,
+    idCommande,
+    quantiteCommande
 )
 
 client (
