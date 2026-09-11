@@ -1,17 +1,26 @@
-Nom,Signification,Format,Obligatoire,Calculée
-id_article,Identifiant unique de l'article,entier,Oui,Non
-titre_article,Titre de l'article,Texte,Oui,Non
-description_article,Description de l'article,Texte,Oui,Non
-contenu_article,Contenu de l'article,Texte,Oui,Non
-image_article,Image de l'article,Chemin,Non,Non
-date_publication,Date de publication de l'article,JJ/MM/AAAA,Oui,Non
-duree_lecture,Durée de lecture de l'article,entier,Oui,Non
-id_auteur,Identifiant de l'auteur,entier,Oui,Non
-id_category,Identifiant unique de la catégorie, entier,Oui,Non
-description_category,Description de la catégorie,Texte,Oui,Non
-nom_category,Nom de la catégorie,Texte,Oui,Non
-id_auteur,Identifiant unique de l'auteur,entier,Oui,Non
-nom_auteur,Nom de l'auteur,Texte,Oui,Non
-prenom_auteur,Prénom de l'auteur,Texte,Oui,Non
-email_auteur,Adresse email de l'auteur,Email,Oui,Non
-photo_auteur,Photo de l'auteur,Chemin,Non,Non
+Interface,Nom,Signification,Format,Obligatoire,Calculée
+CategoryAdmin,IdCategory,identifiant de category,Entier,oui,non
+CategoryAdmin,NomCategory,Le nom de cetegory,text,oui,non
+CategoryAdmin,ColorCategory,le coleur de category,text,oui,non
+CategoryAdmin,iconCategory,l'icon de category,text,oui,non
+ArticleAdmin,IdArticle,identifiant d'Article,Entier,oui,non
+ArticleAdmin,TitleArticle,Titre d'article,Text,oui,non
+ArticleAdmin,category,category d'Article,text,oui,non
+ArticleAdmin,status,status d'article,text,oui,non
+ArticleAdmin,imgArticle,Image d'Article,chemin,oui,non
+ArticleAdmin,contentArticle,Contenu d'Article,text,oui,non
+ArticlePage,dateArticle,Date de publication d'article,Date,oui,non
+ArticlePage,tempLecture,temps de lecture de l'article,time,oui,oui
+ArticlePage,Auteur,Auteur de l'article,text,oui,non
+ArticlePage,PhotoArticle,Photo de l'article,chemin,oui,non
+ArticlePage,nextArticle,l'article Suivant,lien,oui,oui
+ArticlePage,PreviousArticle,l'article Presedent,lien,oui,oui
+ArticlePage,legenderPhotoArticle,legende de photo de l'article,text,oui,non
+AdminDashboard,ArticlePublie,Nombre de l'article Publiee,Entier,oui,oui
+AdminDashboard,NumCategory,Nombre de category existe,Entier,oui,oui
+AdminDashboard,TotalVue,Nombre totale de vue,Entier,oui,oui
+AceuilPage,Theme,filter par theme,text,oui,non
+AproposPage,AuteurPhoto,photo de l'Auteur,chemin,non,non
+AproposPage,ContenuAuteur,Information sur l'auteur,text,non,non
+ConnexionPage,EmailConnexion,Adresse Email pour la connexion,email,oui,non
+ConnexionPage,Password,mot de passe de l'email,password,oui,non
