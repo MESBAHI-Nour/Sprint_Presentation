@@ -1,3 +1,4 @@
+
 Interface,Nom,Signification,Format,Obligatoire,Calculée
 CategoryAdmin,IdCategory,identifiant de category,Entier,oui,non
 CategoryAdmin,NomCategory,Le nom de cetegory,text,oui,non
