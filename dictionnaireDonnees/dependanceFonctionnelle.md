@@ -26,3 +26,9 @@ Produit (
     nomProduit,
     prixProduit
 )
+
+client (
+    idClient,
+    nomClient,
+    emailClient
+)
