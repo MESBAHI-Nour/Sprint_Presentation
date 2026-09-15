@@ -1,38 +1,42 @@
-## Produit
-idProduit -> nomProduit , prixProduit
-
-## Commande
-idCommande -> numeroCommande , dateCommande 
-
-## CommandeProduit
-idProduit , idComande -> quantiteCommande
-
-## Client
-idClient -> nomClient , emailClient
+# dépendance fonctionnelles 
+---
 
 
-## Les Groupes
-Commande (
-    idCommande,
-    numeroCommande,
-    dateCommande,
-    idClient
-)
+ * numero_commande -->  date_commande, nom_client, email_client , id_client
+ * id_client --> email_client, nom_client
+ * id_produit -->  nom_produit , prix_produit
+ * id_produit + numero_commande -->  quantite_commmande
 
-Produit (
-    idProduit,
-    nomProduit,
-    prixProduit
-)
+---
 
-commandeProduit (
-    idProduit,
-    idCommande,
-    quantiteCommande
-)
+# Table Client : 
+ * Client  (
+    id_client
+    email_client, 
+    nom_client
+ )
+ ---
 
-client (
-    idClient,
-    nomClient,
-    emailClient
+# Table Commande: 
+ * Commande (
+    numero_commande,
+    date_commande,
+    nom_client, 
+    email_client,
+    id_client
+ )
+ ---
+
+# Table Prouit : 
+ * Produit(
+    id_produit,
+    nom_produit,
+    prix_produit
+ )
+ ---
+# Table Commande_Produit : 
+* Commande_Produit (
+    id_produit,
+    numero_commande,
+    quantite_commmande
 )

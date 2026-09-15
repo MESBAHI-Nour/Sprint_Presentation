@@ -1,0 +1,16 @@
+Champ,Signification,Format,Obligatoire,Calculée
+nom_realisateur,Nom du réalisateur,Texte,Oui,Non
+prenom_realisateur,Prénom du réalisateur,Texte,Oui,Non
+date_naissance,Date de naissance du réalisateur,Date,Non,Non
+nationalite,Nationalité du réalisateur,Text,Non,Non
+biographie,Résumé de la carrière ou de la vie du réalisateur,Text,Non,Non
+photo-realisateur_url,l'image de profil du réalisateur,Text,Non,Non
+titre_film,Titre du film,Texte,Oui,Non
+description-film,Description du film,Text,Non,Non
+date_sortie,Date de sortie du film,Date,Oui,Non
+duree,Durée du film,Entier,Oui,Non
+classification_age,Limite d'âge,Non,Non
+poster_film_url,Affiche verticale du film,Text,Oui,Non
+video_stream_url,Lien vers le flux vidéo principal,Text,Oui,Non
+nom_genre,Nom du genre cinématographique,Text,Oui,Non
+description,Courte explication des caractéristiques du genre,Text,Non,Non
