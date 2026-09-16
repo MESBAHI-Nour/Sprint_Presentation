@@ -32,5 +32,5 @@ erDiagram
         string nom_genre
     }
 
-    REALISATEUR o|--|| FILM : "réaliser"
-    GENRE ||--|{ FILM : "associer"
+    REALISATEUR o{--|| FILM : "réaliser"
+    GENRE |{--|| FILM : "associer"
