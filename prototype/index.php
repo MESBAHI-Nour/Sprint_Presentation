@@ -30,7 +30,7 @@
                     <th>Genre</th>
                     <th>Date de sortie</th>
                     <th>Duree</th>
-                    <th>classification d'age</th>
+                    <th>Classification d'age</th>
                     <th>Realisateur</th>
                 </tr>
             </thead>
