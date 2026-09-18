@@ -27,11 +27,6 @@ form {
     flex-direction: column;
 }
 
-h1 {
-    width: 600px;
-    margin: 0 auto 25px;
-    color: #172033;
-}
 
 label {
     margin-bottom: 8px;
@@ -75,7 +70,7 @@ button:hover {
     background-color: #1d4ed8;
 }
 
-#message {
+#msg   {
     margin: 10px 0;
     color: red;
 }
