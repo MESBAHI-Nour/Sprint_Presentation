@@ -1,0 +1,32 @@
+flowchart LR
+
+    Administrateur["Administrateur"]
+    Auteur["Auteur"]
+    Visiteur["Visiteur"]
+
+    UC1(["Gère les catégories et les auteurs"])
+    UC2(["Valide les articles"])
+    UC3(["Publie les articles"])
+
+    UC4(["Rédige des articles"])
+    UC5(["Gère son profil et son mot de passe"])
+
+    UC6(["Consulte les articles publiés"])
+
+    Blog["Blog"]
+
+    Administrateur --- UC1
+    Administrateur --- UC2
+    Administrateur --- UC3
+
+    Auteur --- UC4
+    Auteur --- UC5
+
+    Visiteur --- UC6
+
+    UC1 --- Blog
+    UC2 --- Blog
+    UC3 --- Blog
+    UC4 --- Blog
+    UC5 --- Blog
+    UC6 --- Blog
